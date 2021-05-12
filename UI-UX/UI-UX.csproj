@@ -26,4 +26,8 @@
     <TypeScriptCompile Include="wwwroot\js\Main.ts" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

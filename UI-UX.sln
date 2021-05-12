@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-UX", "UI-UX\UI-UX.csproj", "{94AD12F9-6276-4095-ACD9-7DF62ACEC67A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI-UX", "UI-UX\UI-UX.csproj", "{94AD12F9-6276-4095-ACD9-7DF62ACEC67A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E4249AD-F94D-49B9-B985-8C77BA941250}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

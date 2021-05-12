@@ -1,0 +1,12 @@
+﻿.Cards {
+  padding: 13px;
+  border: solid 1px rgba(10, 10, 10, 0.4);
+  transition: box-shadow 250ms ease;
+  border-radius: 20px; }
+  .Cards-head {
+    text-align: center; }
+    .Cards-head img {
+      height: 250px;
+      width: 220px;
+      object-fit: fill;
+      object-position: center; }

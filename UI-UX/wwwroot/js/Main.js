@@ -5,12 +5,10 @@ window.addEventListener("load", function () {
     });
 });
 function setNavgationFixed(navigations) {
-    navigations.style.position = "fixed";
-    navigations.style.opacity = 0.8;
-    navigations.style.width = "100%";
     if (pageYOffset == 0) {
-        navigations.style.position = null;
-        navigations.style.opacity = null;
+        navigations.classList.remove("MyNavigations-fixed");
+        return;
     }
+    navigations.classList.add("MyNavigations-fixed");
 }
 //# sourceMappingURL=Main.js.map
